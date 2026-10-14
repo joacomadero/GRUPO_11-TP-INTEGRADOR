@@ -10,7 +10,7 @@ class Producto:
 
 
 class Comida(Producto):
-    def __init__(self, nombre, precio, celiaco=False):
+    def __init__(self, nombre, precio, celiaco):
         super().__init__(nombre, precio)
         self.celiaco = celiaco
 
